@@ -1,1 +1,3 @@
 # LKP-learningCenter
+
+## Tentang Kami
