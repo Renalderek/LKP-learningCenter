@@ -5,3 +5,5 @@
 ## Charity Event
 ## Alamat
 ## Profil Guru
+## Berita Terbaru 
+## Artikel Belajar
