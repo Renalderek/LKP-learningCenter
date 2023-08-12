@@ -1,9 +1,9 @@
 # LKP-learningCenter
 
-## Tentang Kami
+## Tentang Kami ~
 ## Program Dan paket belajar
 ## Charity Event
-## Alamat
+## Alamat ~
 ## Profil Guru
 ## Berita Terbaru 
 ## Artikel Belajar
