@@ -1,0 +1,254 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+
+@media screen and (max-width: 375px){
+ main .About_Section_Profilguru .Profilguru_bg{
+        height: 6000px;
+    }
+
+    footer .footer_container_fluid{
+        margin-bottom: 10%;
+    }
+
+    footer .footer_serti_container{
+        margin-top: 100%;
+    }
+}
+
+
+/* MOBILE 425px DISPLAY */
+@media screen and (max-width: 720px) {
+/*===== HEADER START SECTION =====*/
+.logo{
+    width: 56%;
+}
+
+    header{
+        padding: 0 2%;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background-color: #3771C8;    
+        width: 100%;
+        height: 100vh;
+        transition: 0.3s;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navbar.active{
+        left: 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        gap: 0;
+        margin: 0;
+        padding:0;
+        
+       
+    }
+
+    .navbar ul li{
+        width: 100%;
+        padding: 2% 0;
+        border-bottom: 2px solid #325ea0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head_container .navbar ul li a{
+        color: #fff;
+        margin: 0;
+        width: 90%;
+    }
+
+
+    .hamburger_menu{
+        display: block;
+        font-size: 40px;
+    }
+/*===== HEADER END SECTION =====*/
+
+/*===== ABOUT HEAD START SECTION =====*/
+       .About_Section_Head{
+        margin-top: 27%;
+        margin-bottom: 35%;
+       }
+       
+       .about_head_container h1{
+            font-size: 1.7rem;
+       }
+
+       .about_head_img{
+           margin-top: 15%;
+           flex-direction: column;
+           align-items: center;
+       }
+
+       .about_head_img img{
+           width: 90%;
+       }
+/*===== ABOUT HEAD END SECTION =====*/
+
+/*===== ABOUT DESCK START SECTION =====*/
+    .about_desck_container{
+        padding: 0;
+    }   
+
+    .about_desck_Tittle{
+           width: 100%;
+           padding: 0;
+           margin-top: 20%;
+           margin-bottom: 15%;
+       }
+
+       .about_desck_Tittle h2{
+           width: 100%;
+           font-size: 1.1rem;
+       }
+/*===== ABOUT DESCK END SECTION =====*/
+
+/*===== ABOUT LEMBAGA START SECTION =====*/
+    .about_lembaga_container{
+        width: 90%;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .about_lembaga_container .lembaga_desck{
+        width: 95%;
+    }
+
+    .lembaga_img{
+        width: 100%;
+        padding: 0;
+        order: -1;
+    }
+    .lembaga_photo{
+        width: 100%;
+        padding: 0;
+    }
+
+    .lembaga_photo img{
+        width: 100%;
+    }
+
+    .about_lembaga_container .lembaga_vector{
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .vector_img{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .vector_img img{
+        width: 100px;
+    }
+/*===== ABOUT LEMBAGA END SECTION =====*/
+
+/*===== ABOUT PROFIL GURU START SECTION =====*/
+    .About_Section_Profilguru{
+        margin-top: 10%;
+    }
+
+    .About_Section_Profilguru .Profilguru_bg{
+        width: 100%;
+        height: 7000px;
+        background-image: url(/asset/vector/Component\ 23.png);
+        background-size: contain;
+    }
+/*===== ABOUT PROFIL GURU END SECTION =====*/
+
+/*===== FOOTER START SECTION =====*/
+footer{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer_brand{
+    height: 100px;
+    width: 370px;
+    align-items: center;
+}
+
+.footer_container_fluid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer_addres{
+    margin-bottom: 2rem;
+}
+
+.container_footer_content{
+    gap: 1rem;
+    width: 50%;
+}
+
+.footer_serti_container{
+    width: 100%;
+    margin-top: 80%;
+}
+/*===== FOOTER END SECTION =====*/
+}
+
+@media screen and (max-width: 1024px){
+    /* HERO START */
+    .lembaga_desck{
+        width: 40%;
+    }
+
+    .about_lembaga_container{
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    .lembaga_img{
+        padding: 0;
+    }
+
+    .lembaga_img .lembaga_photo{
+        width: 100%;
+    }
+
+    .lembaga_vector{
+        width: 50%;
+        margin-top: -20%;
+    }
+
+    .lembaga_vector .vector_img{
+        width: 100%;
+    }
+
+    .lembaga_img .lembaga_photo img{
+        width: 100%;
+    }
+
+    .Profilguru_bg{
+        height: 2800px;
+    }
+
+    .footer_brand{
+        width: 90%;
+    }
+
+   .footer_container_fluid{
+       width: 90%;
+   }
+}
+
+
+

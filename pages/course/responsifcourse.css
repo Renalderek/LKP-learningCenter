@@ -1,0 +1,123 @@
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;800&display=swap');
+
+/* MOBILE 425px DISPLAY */
+@media screen and (max-width: 720px) {
+/*===== HEADER START SECTION =====*/
+.logo{
+    width: 56%;
+}
+
+    header{
+        padding: 0 2%;
+    }
+
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background-color: #3771C8;    
+        width: 100%;
+        height: 100vh;
+        transition: 0.3s;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .navbar.active{
+        left: 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        gap: 0;
+        margin: 0;
+        padding:0;
+        
+       
+    }
+
+
+    .navbar ul li{
+        width: 100%;
+        padding: 2% 0;
+        border-bottom: 2px solid #325ea0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .head_container .navbar ul li a{
+        color: #fff;
+        margin: 0;
+        width: 90%;
+    }
+
+    .hamburger_menu{
+        display: block;
+        font-size: 40px;
+    }
+/*===== HEADER END SECTION =====*/
+
+/*===== COURSE START SECTION =====*/
+    main .course_section{
+        margin-top: 15% ;
+    }
+
+    .course_container .class_wrapp{
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem ;
+        border-radius: 30px;
+    }
+
+    .course_section  .head_course{
+        font-size: 1.7rem;
+    }
+
+    .course_container .class_wrapp_span{
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem ;
+        border-radius: 30px;
+    }
+
+    .link h2{
+        font-size: 1rem;
+    }
+
+    .link a{
+        font-size: 13px;
+    }
+
+    .course_img img{
+        width: 70px;
+        
+    }
+    
+/*===== COURSE END SECTION =====*/
+}
+
+
+@media screen and (max-width: 1024px){
+    .course_section{
+        margin-top: 10%;
+    }
+
+    .class_wrapp{
+        width: 70%;
+    }
+
+    .class_wrapp_span{
+        width: 70%;
+    }
+
+}
+    
+
+
